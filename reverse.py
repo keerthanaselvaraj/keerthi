@@ -1,5 +1,5 @@
-def reverse(s)
-s=good
-if len(s)<1:
-return s
-return reverse(s[1:])+s[0]
+def rev(r):
+    if len(r) <= 1:
+        return r
+    return rev(r[1:]) + r[0]
+print(rev('keerthana'))
